@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Auto Repair Industry Benchmarks - 2026 Data from 400+ Shops
-permalink: /auto-repair-shop-software/benchmarks/
+permalink: /benchmarks/
 ---
 
 # Auto Repair Industry Benchmarks
@@ -55,7 +55,7 @@ Shops charging $150+ per hour consistently share these traits:
 
 Shops with digital inspections and transparent customer experiences typically command **15–25% higher rates** than comparable shops without those tools.
 
-**[See full labor rate analysis](https://bookingautomotive.com/auto-repair-shop-software/labor-rate-benchmarks/)**
+**[See full labor rate analysis](https://bookingautomotive.com/labor-rate-benchmarks/)**
 
 ---
 
@@ -93,7 +93,7 @@ Regions with higher digital inspection adoption see **25–35% higher ARO** rega
 9. Chicago, IL — $490
 10. Dallas, TX — $485
 
-**[See full ARO by region breakdown](https://bookingautomotive.com/auto-repair-shop-software/aro-by-region/)**
+**[See full ARO by region breakdown](https://bookingautomotive.com/aro-by-region/)**
 
 ---
 
@@ -132,7 +132,7 @@ Shops using automated SMS and email reminders reduce no-shows by **60–70%** on
 | SMS only | 11% | -39% |
 | SMS + email + 24hr call | 7% | -61% |
 
-**[See full no-show rate analysis by city](https://bookingautomotive.com/auto-repair-shop-software/no-show-rates-by-city/)**
+**[See full no-show rate analysis by city](https://bookingautomotive.com/no-show-rates-by-city/)**
 
 ---
 
@@ -159,7 +159,7 @@ Shops in the top 25% consistently:
 
 Shops that follow up on declined work within 30 days recover **35%** of that revenue on average.
 
-**[See customer retention benchmarks](https://bookingautomotive.com/auto-repair-shop-software/customer-retention-benchmarks/)**
+**[See customer retention benchmarks](https://bookingautomotive.com/customer-retention-benchmarks/)**
 
 ---
 
@@ -184,7 +184,7 @@ Top-performing technicians are enabled by:
 - **Bay specialization** — Technicians assigned to bays equipped for their specialties
 - **Tool allowances** — Shops that invest in diagnostic tools see 15% higher billable hours
 
-**[See technician productivity analysis](https://bookingautomotive.com/auto-repair-shop-software/technician-productivity/)**
+**[See technician productivity analysis](https://bookingautomotive.com/technician-productivity/)**
 
 ---
 
@@ -209,7 +209,7 @@ The most profitable shops share these characteristics:
 - Administrative overhead reduced through automation (scheduling, invoicing, reminders)
 - Marketing spend focused on retention, not just acquisition
 
-**[See shop profitability guide](https://bookingautomotive.com/auto-repair-shop-software/shop-profitability/)**
+**[See shop profitability guide](https://bookingautomotive.com/shop-profitability/)**
 
 ---
 
@@ -264,4 +264,4 @@ If you use this data in a publication, article, or presentation, please cite:
 
 No manual data entry required — benchmarks are calculated automatically from your shop's actual performance data.
 
-[Back to all documentation](/auto-repair-shop-software/)
+[Back to all documentation]({{ site.baseurl }}/)

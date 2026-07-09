@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Auto Repair Shop Software
-permalink: /auto-repair-shop-software/auto-repair-shop-software/
+permalink: /auto-repair-shop-software/
 ---
 
 # Auto Repair Shop Software | Move More Cars. Fill Every Bay
@@ -171,7 +171,7 @@ Connect with existing systems:
 - Email and SMS (for customer communication)
 - Accounting software (QuickBooks, Xero)
 
-See the full [Integrations & API Guide](/auto-repair-shop-software/integrations/) for API documentation, webhooks, SDKs, and open-source examples.
+See the full [Integrations & API Guide]({{ site.baseurl }}/integrations/) for API documentation, webhooks, SDKs, and open-source examples.
 
 ### Start Booking
 
@@ -192,7 +192,7 @@ Auto repair shops using Booking Automotive see real results:
 - **40% Time Savings on Admin** - Automated workflows free up staff time
 - **20% Revenue Growth in First 3 Months** - Better operations drive bottom-line results
 
-> **See how your shop compares:** Check our free [Industry Benchmarks](/auto-repair-shop-software/benchmarks/) for 2026 data from 400+ shops — compare your no-show rates, ARO, bay utilization, and labor rates against real market averages.
+> **See how your shop compares:** Check our free [Industry Benchmarks]({{ site.baseurl }}/benchmarks/) for 2026 data from 400+ shops — compare your no-show rates, ARO, bay utilization, and labor rates against real market averages.
 
 ## Pricing
 
@@ -220,14 +220,14 @@ No credit card required. No long-term commitment. Just results.
 
 Explore our detailed guides:
 
-- [Getting Started Guide](/auto-repair-shop-software/getting-started/)
-- [Appointment Scheduling Guide](/auto-repair-shop-software/appointment-scheduling/)
-- [Customer Management Guide](/auto-repair-shop-software/customer-management/)
-- [Shop Management Guide](/auto-repair-shop-software/shop-management/)
-- [Analytics and Reporting Guide](/auto-repair-shop-software/analytics-reporting/)
-- [Integrations & API Guide](/auto-repair-shop-software/integrations/) - QuickBooks, Stripe, Google Calendar, and API docs
-- [Industry Benchmarks](/auto-repair-shop-software/benchmarks/) - 2026 data from 400+ shops
-- [Free Tools & Calculators](/auto-repair-shop-software/tools/) - ROI, no-show, and labor rate calculators
-- [Free Resources Hub](/auto-repair-shop-software/free-resources/) - Templates, checklists, and guides
+- [Getting Started Guide]({{ site.baseurl }}/getting-started/)
+- [Appointment Scheduling Guide]({{ site.baseurl }}/appointment-scheduling/)
+- [Customer Management Guide]({{ site.baseurl }}/customer-management/)
+- [Shop Management Guide]({{ site.baseurl }}/shop-management/)
+- [Analytics and Reporting Guide]({{ site.baseurl }}/analytics-reporting/)
+- [Integrations & API Guide]({{ site.baseurl }}/integrations/) - QuickBooks, Stripe, Google Calendar, and API docs
+- [Industry Benchmarks]({{ site.baseurl }}/benchmarks/) - 2026 data from 400+ shops
+- [Free Tools & Calculators]({{ site.baseurl }}/tools/) - ROI, no-show, and labor rate calculators
+- [Free Resources Hub]({{ site.baseurl }}/free-resources/) - Templates, checklists, and guides
 
 Ready to transform your auto repair shop? [Visit bookingautomotive.com](https://bookingautomotive.com) and start moving more cars and filling every bay today.

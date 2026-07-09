@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Integrations & API Documentation
-permalink: /auto-repair-shop-software/integrations/
+permalink: /integrations/
 ---
 
 # Integrations & API Documentation
@@ -92,7 +92,7 @@ Configure messaging providers in Settings > Communication.
 
 Automatically request Google Reviews after completed appointments. Our integration monitors the review status and sends follow-up reminders to customers who haven't left a review yet.
 
-[Learn more about review automation](https://bookingautomotive.com/auto-repair-shop-software/google-maps/)
+[Learn more about review automation](https://bookingautomotive.com/google-maps/)
 
 ---
 
@@ -181,4 +181,4 @@ We maintain a collection of open-source integration examples on GitHub:
 
 Ready to build something? **[Get your API key](https://bookingautomotive.com)** and start integrating today.
 
-[Back to all documentation](/auto-repair-shop-software/)
+[Back to all documentation]({{ site.baseurl }}/)

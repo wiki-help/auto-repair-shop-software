@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Customer Management Guide
-permalink: /auto-repair-shop-software/customer-management/
+permalink: /customer-management/
 ---
 
 # Customer Management Guide for Auto Repair Shops
@@ -215,8 +215,8 @@ Transform your customer relationships with professional management tools. [Sign 
 
 Explore our other guides:
 
-- [Getting Started Guide](/auto-repair-shop-software/getting-started/)
-- [Appointment Scheduling Guide](/auto-repair-shop-software/appointment-scheduling/)
-- [Shop Management Guide](/auto-repair-shop-software/shop-management/)
-- [Industry Benchmarks](/auto-repair-shop-software/benchmarks/) - Compare your customer retention against 400+ shops
-- [Free Tools & Calculators](/auto-repair-shop-software/tools/) - Customer retention and ROI calculators
+- [Getting Started Guide]({{ site.baseurl }}/getting-started/)
+- [Appointment Scheduling Guide]({{ site.baseurl }}/appointment-scheduling/)
+- [Shop Management Guide]({{ site.baseurl }}/shop-management/)
+- [Industry Benchmarks]({{ site.baseurl }}/benchmarks/) - Compare your customer retention against 400+ shops
+- [Free Tools & Calculators]({{ site.baseurl }}/tools/) - Customer retention and ROI calculators

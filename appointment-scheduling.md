@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Appointment Scheduling Guide
-permalink: /auto-repair-shop-software/appointment-scheduling/
+permalink: /appointment-scheduling/
 ---
 
 # Appointment Scheduling Guide for Auto Repair Shops
@@ -176,7 +176,7 @@ Track key scheduling metrics:
 - **Customer Satisfaction** - Feedback on scheduling experience
 - **Technician Utilization** - Percentage of billable hours
 
-> **Tip:** Use our free [No-Show Rate Estimator](/auto-repair-shop-software/tools/) to calculate how much revenue no-shows cost your shop and how automated reminders could recover it. Built with city-level benchmark data from 400+ shops.
+> **Tip:** Use our free [No-Show Rate Estimator]({{ site.baseurl }}/tools/) to calculate how much revenue no-shows cost your shop and how automated reminders could recover it. Built with city-level benchmark data from 400+ shops.
 
 ## Getting Started
 
@@ -184,8 +184,8 @@ Ready to transform your appointment scheduling? [Sign up at bookingautomotive.co
 
 For more information, check out our other guides:
 
-- [Getting Started Guide](/auto-repair-shop-software/getting-started/)
-- [Customer Management Guide](/auto-repair-shop-software/customer-management/)
-- [Shop Management Guide](/auto-repair-shop-software/shop-management/)
-- [Industry Benchmarks](/auto-repair-shop-software/benchmarks/) - Compare your scheduling metrics against 400+ shops
-- [Free Tools & Calculators](/auto-repair-shop-software/tools/) - No-show estimator, bay utilization calculator, and more
+- [Getting Started Guide]({{ site.baseurl }}/getting-started/)
+- [Customer Management Guide]({{ site.baseurl }}/customer-management/)
+- [Shop Management Guide]({{ site.baseurl }}/shop-management/)
+- [Industry Benchmarks]({{ site.baseurl }}/benchmarks/) - Compare your scheduling metrics against 400+ shops
+- [Free Tools & Calculators]({{ site.baseurl }}/tools/) - No-show estimator, bay utilization calculator, and more

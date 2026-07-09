@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Documentation
-permalink: /auto-repair-shop-software/
+permalink: /
 ---
 
 # Documentation
@@ -12,53 +12,53 @@ Welcome to the [Booking Automotive](https://bookingautomotive.com) documentation
 
 New to Booking Automotive? Start here to set up your shop and begin using our powerful tools.
 
-- **[Getting Started Guide](/auto-repair-shop-software/getting-started/)** - Learn how to create your account, configure your shop profile, set up services and pricing, and integrate your calendar. Perfect for new users who want to get up and running quickly.
+- **[Getting Started Guide]({{ site.baseurl }}/getting-started/)** - Learn how to create your account, configure your shop profile, set up services and pricing, and integrate your calendar. Perfect for new users who want to get up and running quickly.
 
 ## Core Features
 
 Deep dive into the essential features that power your auto repair shop.
 
-- **[Auto Repair Shop Software](/auto-repair-shop-software/auto-repair-shop-software/)** - Comprehensive overview of our software platform, including key features, benefits, and why Booking Automotive is the right choice for your shop.
+- **[Auto Repair Shop Software]({{ site.baseurl }}/auto-repair-shop-software/)** - Comprehensive overview of our software platform, including key features, benefits, and why Booking Automotive is the right choice for your shop.
 
-- **[Appointment Scheduling Guide](/auto-repair-shop-software/appointment-scheduling/)** - Master the art of efficient scheduling. Learn about online booking, smart scheduling rules, reducing no-shows, and optimizing your shop's calendar.
+- **[Appointment Scheduling Guide]({{ site.baseurl }}/appointment-scheduling/)** - Master the art of efficient scheduling. Learn about online booking, smart scheduling rules, reducing no-shows, and optimizing your shop's calendar.
 
-- **[Customer Management Guide](/auto-repair-shop-software/customer-management/)** - Build lasting relationships with your customers. Discover strategies for customer communication, loyalty programs, segmentation, and delivering exceptional service.
+- **[Customer Management Guide]({{ site.baseurl }}/customer-management/)** - Build lasting relationships with your customers. Discover strategies for customer communication, loyalty programs, segmentation, and delivering exceptional service.
 
 ## Shop Operations
 
 Manage your day-to-day operations with these comprehensive guides.
 
-- **[Shop Management Guide](/auto-repair-shop-software/shop-management/)** - Everything you need to run your shop efficiently. Covers operations management, staff scheduling, inventory control, financial management, and quality control.
+- **[Shop Management Guide]({{ site.baseurl }}/shop-management/)** - Everything you need to run your shop efficiently. Covers operations management, staff scheduling, inventory control, financial management, and quality control.
 
 ## Analytics and Growth
 
 Use data to make smarter decisions and grow your business.
 
-- **[Analytics and Reporting Guide](/auto-repair-shop-software/analytics-reporting/)** - Unlock the power of your data. Learn about key performance indicators, revenue analytics, customer analytics, reporting tools, and using analytics for strategic decision making.
+- **[Analytics and Reporting Guide]({{ site.baseurl }}/analytics-reporting/)** - Unlock the power of your data. Learn about key performance indicators, revenue analytics, customer analytics, reporting tools, and using analytics for strategic decision making.
 
-- **[Industry Benchmarks](/auto-repair-shop-software/benchmarks/)** - Original 2026 data from 400+ auto repair shops. Compare your labor rates, ARO, no-show rates, and customer retention against regional and national averages.
+- **[Industry Benchmarks]({{ site.baseurl }}/benchmarks/)** - Original 2026 data from 400+ auto repair shops. Compare your labor rates, ARO, no-show rates, and customer retention against regional and national averages.
 
 ## Free Tools & Open-Source Resources
 
 Free calculators, scripts, and templates — no signup required.
 
-- **[Free Tools & Calculators](/auto-repair-shop-software/tools/)** - ROI calculator, no-show rate estimator, labor rate comparison tool, bay utilization analyzer, and more. Open-source and free to use.
+- **[Free Tools & Calculators]({{ site.baseurl }}/tools/)** - ROI calculator, no-show rate estimator, labor rate comparison tool, bay utilization analyzer, and more. Open-source and free to use.
 
-- **[Free Resources Hub](/auto-repair-shop-software/free-resources/)** - Complete collection of downloadable templates, checklists, and guides for auto repair shop owners.
+- **[Free Resources Hub]({{ site.baseurl }}/free-resources/)** - Complete collection of downloadable templates, checklists, and guides for auto repair shop owners.
 
 ## Integrations & Developer Resources
 
 Connect Booking Automotive to the tools you already use, or build custom solutions with our API.
 
-- **[Integrations & API Guide](/auto-repair-shop-software/integrations/)** - API documentation, webhooks, SDKs, and integration guides for QuickBooks, Stripe, Google Calendar, and more. Open-source examples on GitHub.
+- **[Integrations & API Guide]({{ site.baseurl }}/integrations/)** - API documentation, webhooks, SDKs, and integration guides for QuickBooks, Stripe, Google Calendar, and more. Open-source examples on GitHub.
 
 ## Quick Links
 
 - **[Booking Automotive Website](https://bookingautomotive.com)** - Visit our main website for product information and to sign up
 - **[Support](https://wiki-help.github.io/auto-repair-shop-software/auto-repair-shop-software/)** - Get help with any questions or issues
-- **[Industry Benchmarks](/auto-repair-shop-software/benchmarks/)** - Free data from 400+ auto repair shops
-- **[Free Tools](/auto-repair-shop-software/tools/)** - Calculators and open-source scripts
-- **[API Documentation](/auto-repair-shop-software/integrations/)** - Integrations and developer guides
+- **[Industry Benchmarks]({{ site.baseurl }}/benchmarks/)** - Free data from 400+ auto repair shops
+- **[Free Tools]({{ site.baseurl }}/tools/)** - Calculators and open-source scripts
+- **[API Documentation]({{ site.baseurl }}/integrations/)** - Integrations and developer guides
 
 ## Need Help?
 

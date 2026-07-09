@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Free Tools for Auto Repair Shops
-permalink: /auto-repair-shop-software/tools/
+permalink: /tools/
 ---
 
 # Free Tools for Auto Repair Shops
@@ -116,7 +116,7 @@ The tool returns:
 
 > A general repair shop in Denver charging $105/hour with digital inspections ranks in the **45th percentile nationally** and **38th percentile regionally**. The tool suggests a range of $115–$125/hour, which would increase annual revenue by approximately **$42,000** (assuming 2,000 billable hours/year).
 
-**[Compare your labor rate](https://bookingautomotive.com/auto-repair-shop-software/labor-rate-benchmarks/)** — full benchmark data with interactive charts.
+**[Compare your labor rate](https://bookingautomotive.com/labor-rate-benchmarks/)** — full benchmark data with interactive charts.
 
 ---
 
@@ -200,7 +200,7 @@ Quantify the hidden revenue in your declined work. Calculate how much revenue yo
 - Annual revenue impact
 - Recommended follow-up cadence based on your data
 
-**[Build a declined work follow-up system](https://bookingautomotive.com/auto-repair-shop-software/declined-work/)** — automated reminders and tracking built into Booking Automotive.
+**[Build a declined work follow-up system](https://bookingautomotive.com/declined-work/)** — automated reminders and tracking built into Booking Automotive.
 
 ---
 
@@ -227,7 +227,7 @@ Assess your shop's readiness for EV service. Score your tooling, training, and i
 - **40–59:** Early stage — invest in safety and training first
 - **Below 40:** Not ready — begin with basic EV maintenance (tires, fluids, 12V battery)
 
-**[See EV service trends and market data](https://bookingautomotive.com/auto-repair-shop-software/ev-service-trends/)**
+**[See EV service trends and market data](https://bookingautomotive.com/ev-service-trends/)**
 
 ---
 
@@ -263,4 +263,4 @@ Have an idea for a calculator or script that would help your shop? Let us know:
 
 Ready to move beyond spreadsheets? **[Try Booking Automotive free](https://bookingautomotive.com)** — all these tools, plus real-time data, automated workflows, and integrated shop management.
 
-[Back to all documentation](/auto-repair-shop-software/)
+[Back to all documentation]({{ site.baseurl }}/)

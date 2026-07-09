@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Free Resources for Auto Repair Shop Owners
-permalink: /auto-repair-shop-software/free-resources/
+permalink: /free-resources/
 ---
 
 # Free Resources for Auto Repair Shop Owners
@@ -22,24 +22,24 @@ Every resource on this page is free to use, share, and adapt. We created them be
 
 ### Getting Started
 
-- **[Getting Started Guide](/auto-repair-shop-software/getting-started/)** — Set up your shop in Booking Automotive in under 30 minutes. Account creation, profile configuration, service catalog setup, and calendar integration.
-- **[Auto Repair Shop Software Overview](/auto-repair-shop-software/auto-repair-shop-software/)** — Comprehensive overview of features, benefits, and pricing. Includes ROI data and success stories from real shops.
+- **[Getting Started Guide]({{ site.baseurl }}/getting-started/)** — Set up your shop in Booking Automotive in under 30 minutes. Account creation, profile configuration, service catalog setup, and calendar integration.
+- **[Auto Repair Shop Software Overview]({{ site.baseurl }}/auto-repair-shop-software/)** — Comprehensive overview of features, benefits, and pricing. Includes ROI data and success stories from real shops.
 
 ### Core Operations
 
-- **[Appointment Scheduling Guide](/auto-repair-shop-software/appointment-scheduling/)** — Master online booking, smart scheduling rules, reducing no-shows, and optimizing your calendar.
-- **[Customer Management Guide](/auto-repair-shop-software/customer-management/)** — Build lasting relationships. Covers communication, loyalty programs, segmentation, and service excellence.
-- **[Shop Management Guide](/auto-repair-shop-software/shop-management/)** — Operations management, staff scheduling, inventory control, financial management, and quality control.
+- **[Appointment Scheduling Guide]({{ site.baseurl }}/appointment-scheduling/)** — Master online booking, smart scheduling rules, reducing no-shows, and optimizing your calendar.
+- **[Customer Management Guide]({{ site.baseurl }}/customer-management/)** — Build lasting relationships. Covers communication, loyalty programs, segmentation, and service excellence.
+- **[Shop Management Guide]({{ site.baseurl }}/shop-management/)** — Operations management, staff scheduling, inventory control, financial management, and quality control.
 
 ### Analytics & Growth
 
-- **[Analytics and Reporting Guide](/auto-repair-shop-software/analytics-reporting/)** — KPIs, revenue analytics, customer analytics, and strategic decision making.
-- **[Industry Benchmarks](/auto-repair-shop-software/benchmarks/)** — 2026 labor rates, ARO, no-show rates, and customer retention data from 400+ shops.
+- **[Analytics and Reporting Guide]({{ site.baseurl }}/analytics-reporting/)** — KPIs, revenue analytics, customer analytics, and strategic decision making.
+- **[Industry Benchmarks]({{ site.baseurl }}/benchmarks/)** — 2026 labor rates, ARO, no-show rates, and customer retention data from 400+ shops.
 
 ### Integrations & Development
 
-- **[Integrations & API Guide](/auto-repair-shop-software/integrations/)** — Connect to QuickBooks, Stripe, Google Calendar, and more. Includes API reference and SDKs.
-- **[Free Tools & Calculators](/auto-repair-shop-software/tools/)** — ROI calculator, no-show estimator, labor rate comparison, bay utilization analyzer, and more.
+- **[Integrations & API Guide]({{ site.baseurl }}/integrations/)** — Connect to QuickBooks, Stripe, Google Calendar, and more. Includes API reference and SDKs.
+- **[Free Tools & Calculators]({{ site.baseurl }}/tools/)** — ROI calculator, no-show estimator, labor rate comparison, bay utilization analyzer, and more.
 
 ---
 
@@ -135,4 +135,4 @@ Have an idea for a template, checklist, or guide that would help your shop? Let 
 
 Ready to move beyond spreadsheets? **[Try Booking Automotive free](https://bookingautomotive.com)** — all these resources, plus real-time data, automated workflows, and integrated shop management.
 
-[Back to all documentation](/auto-repair-shop-software/)
+[Back to all documentation]({{ site.baseurl }}/)

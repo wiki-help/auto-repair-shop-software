@@ -1,4 +1,4 @@
-# Jekyll configuration for GitHub Pages. test
+# Jekyll configuration for GitHub Pages
 title: Booking Automotive Documentation
 description: >-
   Documentation, API guides, industry benchmarks, and free open-source tools
@@ -33,4 +33,3 @@ defaults:
 # Exclude from processing
 exclude:
   - .DS_Store
-  - sitemap.xml

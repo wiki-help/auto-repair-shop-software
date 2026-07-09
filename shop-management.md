@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Shop Management Guide
-permalink: /docs/shop-management/
+permalink: /auto-repair-shop-software/shop-management/
 ---
 
 # Shop Management Guide for Auto Repair Shops
@@ -237,8 +237,8 @@ Transform your shop operations today. [Sign up at bookingautomotive.com](https:/
 
 Explore our other guides:
 
-- [Getting Started Guide](/docs/getting-started/)
-- [Appointment Scheduling Guide](/docs/appointment-scheduling/)
-- [Customer Management Guide](/docs/customer-management/)
-- [Industry Benchmarks](/docs/benchmarks/) - Compare your shop's labor rates, ARO, and productivity against 400+ shops
-- [Free Tools & Calculators](/docs/tools/) - Bay utilization, capacity planner, and ROI calculators
+- [Getting Started Guide](/auto-repair-shop-software/getting-started/)
+- [Appointment Scheduling Guide](/auto-repair-shop-software/appointment-scheduling/)
+- [Customer Management Guide](/auto-repair-shop-software/customer-management/)
+- [Industry Benchmarks](/auto-repair-shop-software/benchmarks/) - Compare your shop's labor rates, ARO, and productivity against 400+ shops
+- [Free Tools & Calculators](/auto-repair-shop-software/tools/) - Bay utilization, capacity planner, and ROI calculators

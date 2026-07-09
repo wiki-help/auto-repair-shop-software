@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Integrations & API Documentation
-permalink: /docs/integrations/
+permalink: /auto-repair-shop-software/integrations/
 ---
 
 # Integrations & API Documentation
@@ -181,4 +181,4 @@ We maintain a collection of open-source integration examples on GitHub:
 
 Ready to build something? **[Get your API key](https://bookingautomotive.com)** and start integrating today.
 
-[Back to all documentation](/docs/)
+[Back to all documentation](/auto-repair-shop-software/)

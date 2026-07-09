@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Getting Started with Auto Repair Shop Software
-permalink: /docs/getting-started/
+permalink: /auto-repair-shop-software/getting-started/
 ---
 
 # Getting Started with Auto Repair Shop Software
@@ -85,12 +85,12 @@ Our support team is available to help you succeed:
 
 Now that you're set up, explore our other guides:
 
-- [Appointment Scheduling Guide](/docs/appointment-scheduling/)
-- [Customer Management Guide](/docs/customer-management/)
-- [Shop Management Guide](/docs/shop-management/)
-- [Analytics and Reporting Guide](/docs/analytics-reporting/)
-- [Integrations & API Guide](/docs/integrations/) - Connect QuickBooks, Stripe, Google Calendar, and more
-- [Industry Benchmarks](/docs/benchmarks/) - Compare your shop against 400+ real shops
-- [Free Tools & Calculators](/docs/tools/) - ROI, no-show, and labor rate calculators
+- [Appointment Scheduling Guide](/auto-repair-shop-software/appointment-scheduling/)
+- [Customer Management Guide](/auto-repair-shop-software/customer-management/)
+- [Shop Management Guide](/auto-repair-shop-software/shop-management/)
+- [Analytics and Reporting Guide](/auto-repair-shop-software/analytics-reporting/)
+- [Integrations & API Guide](/auto-repair-shop-software/integrations/) - Connect QuickBooks, Stripe, Google Calendar, and more
+- [Industry Benchmarks](/auto-repair-shop-software/benchmarks/) - Compare your shop against 400+ real shops
+- [Free Tools & Calculators](/auto-repair-shop-software/tools/) - ROI, no-show, and labor rate calculators
 
 Ready to transform your auto repair shop? [Get started today at bookingautomotive.com](https://bookingautomotive.com) and see the difference professional software can make.

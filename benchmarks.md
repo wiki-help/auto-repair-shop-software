@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Auto Repair Industry Benchmarks - 2026 Data from 400+ Shops
-permalink: /docs/benchmarks/
+permalink: /auto-repair-shop-software/benchmarks/
 ---
 
 # Auto Repair Industry Benchmarks
@@ -249,7 +249,7 @@ Data is collected automatically from shops using the Booking Automotive platform
 
 If you use this data in a publication, article, or presentation, please cite:
 
-> "Booking Automotive Industry Benchmarks, 2026. Data from 400+ U.S. auto repair shops. Available at https://bookingautomotive.github.io/docs/benchmarks/"
+> "Booking Automotive Industry Benchmarks, 2026. Data from 400+ U.S. auto repair shops. Available at https://wiki-help.github.io/auto-repair-shop-software/benchmarks/"
 
 ---
 
@@ -264,4 +264,4 @@ If you use this data in a publication, article, or presentation, please cite:
 
 No manual data entry required — benchmarks are calculated automatically from your shop's actual performance data.
 
-[Back to all documentation](/docs/)
+[Back to all documentation](/auto-repair-shop-software/)

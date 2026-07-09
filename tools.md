@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Free Tools for Auto Repair Shops
-permalink: /docs/tools/
+permalink: /auto-repair-shop-software/tools/
 ---
 
 # Free Tools for Auto Repair Shops
@@ -263,4 +263,4 @@ Have an idea for a calculator or script that would help your shop? Let us know:
 
 Ready to move beyond spreadsheets? **[Try Booking Automotive free](https://bookingautomotive.com)** — all these tools, plus real-time data, automated workflows, and integrated shop management.
 
-[Back to all documentation](/docs/)
+[Back to all documentation](/auto-repair-shop-software/)

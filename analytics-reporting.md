@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Analytics and Reporting Guide
-permalink: /docs/analytics-reporting/
+permalink: /auto-repair-shop-software/analytics-reporting/
 ---
 
 # Analytics and Reporting Guide for Auto Repair Shops
@@ -222,7 +222,7 @@ Compare your performance to industry standards:
 - **Customer Retention Rates** - Typical retention percentages
 - **Average Repair Order** - Industry ARO benchmarks
 
-> **Tip:** See our free [Industry Benchmarks](/docs/benchmarks/) page for 2026 data from 400+ shops — compare your labor rates, ARO, no-show rates, and retention against real market data.
+> **Tip:** See our free [Industry Benchmarks](/auto-repair-shop-software/benchmarks/) page for 2026 data from 400+ shops — compare your labor rates, ARO, no-show rates, and retention against real market data.
 
 ### Competitive Analysis
 
@@ -259,9 +259,9 @@ Start making data-driven decisions today. [Sign up at bookingautomotive.com](htt
 
 Explore our other guides:
 
-- [Getting Started Guide](/docs/getting-started/)
-- [Appointment Scheduling Guide](/docs/appointment-scheduling/)
-- [Customer Management Guide](/docs/customer-management/)
-- [Shop Management Guide](/docs/shop-management/)
-- [Industry Benchmarks](/docs/benchmarks/) - Compare your shop against 400+ real shops
-- [Free Tools & Calculators](/docs/tools/) - ROI, no-show, and labor rate calculators
+- [Getting Started Guide](/auto-repair-shop-software/getting-started/)
+- [Appointment Scheduling Guide](/auto-repair-shop-software/appointment-scheduling/)
+- [Customer Management Guide](/auto-repair-shop-software/customer-management/)
+- [Shop Management Guide](/auto-repair-shop-software/shop-management/)
+- [Industry Benchmarks](/auto-repair-shop-software/benchmarks/) - Compare your shop against 400+ real shops
+- [Free Tools & Calculators](/auto-repair-shop-software/tools/) - ROI, no-show, and labor rate calculators

@@ -23,7 +23,7 @@ Every resource on this page is free to use, share, and adapt. We created them be
 ### Getting Started
 
 - **[Getting Started Guide]({{ site.baseurl }}/getting-started/)** — Set up your shop in Booking Automotive in under 30 minutes. Account creation, profile configuration, service catalog setup, and calendar integration.
-- **[Auto Repair Shop Software Overview]({{ site.baseurl }}/auto-repair-shop-software/)** — Comprehensive overview of features, benefits, and pricing. Includes ROI data and success stories from real shops.
+- **[Auto Repair Shop Software Overview]({{ site.baseurl }}/overview/)** — Comprehensive overview of features, benefits, and pricing. Includes ROI data and success stories from real shops.
 
 ### Core Operations
 

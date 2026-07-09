@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Auto Repair Shop Software
-permalink: /auto-repair-shop-software/
+permalink: /overview/
 ---
 
 # Auto Repair Shop Software | Move More Cars. Fill Every Bay

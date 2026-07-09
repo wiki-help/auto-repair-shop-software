@@ -18,7 +18,7 @@ New to Booking Automotive? Start here to set up your shop and begin using our po
 
 Deep dive into the essential features that power your auto repair shop.
 
-- **[Auto Repair Shop Software]({{ site.baseurl }}/auto-repair-shop-software/)** - Comprehensive overview of our software platform, including key features, benefits, and why Booking Automotive is the right choice for your shop.
+- **[Auto Repair Shop Software]({{ site.baseurl }}/overview/)** - Comprehensive overview of our software platform, including key features, benefits, and why Booking Automotive is the right choice for your shop.
 
 - **[Appointment Scheduling Guide]({{ site.baseurl }}/appointment-scheduling/)** - Master the art of efficient scheduling. Learn about online booking, smart scheduling rules, reducing no-shows, and optimizing your shop's calendar.
 

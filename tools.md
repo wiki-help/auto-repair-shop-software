@@ -263,4 +263,5 @@ Have an idea for a calculator or script that would help your shop? Let us know:
 
 Ready to move beyond spreadsheets? **[Try Booking Automotive free](https://bookingautomotive.com)** — all these tools, plus real-time data, automated workflows, and integrated shop management.
 
-[Back to all documentation]({{ site.baseurl }}/)
+[Back to all documentation]({{ site.baseurl }}/)  
+[Request a tool or report a bug on GitHub Issues](https://github.com/bookingautomotive/bookingautomotive.github.io/issues)

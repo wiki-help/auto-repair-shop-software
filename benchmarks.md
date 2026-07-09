@@ -264,4 +264,5 @@ If you use this data in a publication, article, or presentation, please cite:
 
 No manual data entry required — benchmarks are calculated automatically from your shop's actual performance data.
 
-[Back to all documentation]({{ site.baseurl }}/)
+[Back to all documentation]({{ site.baseurl }}/)  
+[Submit feedback or request data on GitHub Issues](https://github.com/bookingautomotive/bookingautomotive.github.io/issues)

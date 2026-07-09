@@ -55,10 +55,11 @@ Connect Booking Automotive to the tools you already use, or build custom solutio
 ## Quick Links
 
 - **[Booking Automotive Website](https://bookingautomotive.com)** - Visit our main website for product information and to sign up
-- **[Support](https://wiki-help.github.io/auto-repair-shop-software/auto-repair-shop-software/)** - Get help with any questions or issues
+- **[Support](https://wiki-help.github.io/auto-repair-shop-software/)** - Get help with any questions or issues
 - **[Industry Benchmarks]({{ site.baseurl }}/benchmarks/)** - Free data from 400+ auto repair shops
 - **[Free Tools]({{ site.baseurl }}/tools/)** - Calculators and open-source scripts
 - **[API Documentation]({{ site.baseurl }}/integrations/)** - Integrations and developer guides
+- **[GitHub Issues & Feedback](https://github.com/bookingautomotive/bookingautomotive.github.io/issues)** - Report bugs, request features, and contribute to our open-source documentation
 
 ## Need Help?
 

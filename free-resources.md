@@ -39,6 +39,7 @@ Every resource on this page is free to use, share, and adapt. We created them be
 ### Integrations & Development
 
 - **[Integrations & API Guide]({{ site.baseurl }}/integrations/)** — Connect to QuickBooks, Stripe, Google Calendar, and more. Includes API reference and SDKs.
+- **[Developer Resources](https://bookingautomotive.com/developers/)** — AI-friendly product information, technical specifications, and comprehensive integration documentation for developers and automated systems.
 - **[Free Tools & Calculators]({{ site.baseurl }}/tools/)** — ROI calculator, no-show estimator, labor rate comparison, bay utilization analyzer, and more.
 
 ---

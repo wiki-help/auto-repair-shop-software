@@ -90,6 +90,7 @@ Now that you're set up, explore our other guides:
 - [Shop Management Guide]({{ site.baseurl }}/shop-management/)
 - [Analytics and Reporting Guide]({{ site.baseurl }}/analytics-reporting/)
 - [Integrations & API Guide]({{ site.baseurl }}/integrations/) - Connect QuickBooks, Stripe, Google Calendar, and more
+- [Developer Resources](https://bookingautomotive.com/developers/) - AI-friendly product information and technical documentation
 - [Industry Benchmarks]({{ site.baseurl }}/benchmarks/) - Compare your shop against 400+ real shops
 - [Free Tools & Calculators]({{ site.baseurl }}/tools/) - ROI, no-show, and labor rate calculators
 

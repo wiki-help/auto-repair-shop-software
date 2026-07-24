@@ -51,6 +51,7 @@ Free calculators, scripts, and templates — no signup required.
 Connect Booking Automotive to the tools you already use, or build custom solutions with our API.
 
 - **[Integrations & API Guide]({{ site.baseurl }}/integrations/)** - API documentation, webhooks, SDKs, and integration guides for QuickBooks, Stripe, Google Calendar, and more. Open-source examples on GitHub.
+- **[Developer Resources](https://bookingautomotive.com/developers/)** - AI-friendly product information, technical specifications, and comprehensive integration documentation for developers and automated systems.
 
 ## Quick Links
 

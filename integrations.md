@@ -173,7 +173,8 @@ We maintain a collection of open-source integration examples on GitHub:
 ## Getting Help
 
 - **API Support** — Email `api-support@bookingautomotive.com` for integration help
-- **Documentation** — Full API docs with interactive examples at [bookingautomotive.com/developers](https://bookingautomotive.com)
+- **Documentation** — Full API docs with interactive examples at [bookingautomotive.com/developers](https://bookingautomotive.com/developers/)
+- **AI-Friendly Content** — Comprehensive product information for developers and automated systems at [bookingautomotive.com/developers](https://bookingautomotive.com/developers/)
 - **Community** — Join the developer discussion on GitHub Discussions
 - **Status Page** — Check API uptime at [status.bookingautomotive.com](https://bookingautomotive.com)
 

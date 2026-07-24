@@ -237,6 +237,10 @@ All tools above are open-source and available on GitHub:
 
 **[github.com/bookingautomotive/tools](https://github.com/bookingautomotive)**
 
+### Developer Resources
+
+For technical documentation, API reference, and AI-friendly product information, visit our **[Developer Resources](https://bookingautomotive.com/developers/)** page. This includes comprehensive technical specifications, integration guides, and structured content for automated systems.
+
 ### Contributing
 
 We welcome contributions from shop owners and developers:

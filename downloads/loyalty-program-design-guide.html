@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loyalty Program Design Guide - Auto Repair Shop</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 850px; margin: 0 auto; padding: 2rem; color: #1a1a2e; }
+  h1 { font-size: 1.8rem; border-bottom: 3px solid #c8a951; padding-bottom: 0.5rem; }
+  h2 { font-size: 1.1rem; background: #1a1a2e; color: white; padding: 0.5rem 0.75rem; margin-top: 1.5rem; }
+  h3 { font-size: 1rem; margin-top: 1rem; }
+  .shop-info { display: flex; gap: 2rem; margin: 1rem 0; }
+  .shop-info input { border: 1px solid #ccc; border-radius: 4px; padding: 0.3rem 0.5rem; font-size: 0.9rem; }
+  table { width: 100%; border-collapse: collapse; margin: 0.5rem 0; }
+  th { background: #f0f0f0; padding: 0.5rem; text-align: left; font-size: 0.85rem; }
+  td { padding: 0.5rem; border-bottom: 1px solid #ddd; font-size: 0.9rem; }
+  .input-row td { border-bottom: 1px solid #eee; }
+  .input-row input { border: none; border-bottom: 1px dotted #ccc; width: 90%; font-size: 0.9rem; padding: 0.2rem; }
+  .calc-box { background: #f8f8f8; border: 1px solid #ddd; border-radius: 6px; padding: 1rem; margin: 1rem 0; }
+  .calc-box p { margin: 0.3rem 0; font-size: 0.9rem; }
+  .footer { margin-top: 2rem; font-size: 0.85rem; color: #666; border-top: 1px solid #ddd; padding-top: 1rem; }
+  @media print { body { padding: 0.5in; } .no-print { display: none; } }
+</style>
+</head>
+<body>
+  <h1>Loyalty Program Design Guide</h1>
+  <p style="color:#666;">Tiered rewards structure with cost modeling and enrollment tracking</p>
+
+  <div class="shop-info">
+    <div>Shop Name: <input type="text" style="width:200px;"></div>
+    <div>Avg ARO: $<input type="text" style="width:80px;"></div>
+    <div>Avg Visits/Customer/Year: <input type="text" style="width:60px;"></div>
+    <div>Active Customers: <input type="text" style="width:80px;"></div>
+  </div>
+
+  <h2>Program Structure Options</h2>
+  <p>Choose the model that fits your shop's customer base and margin structure:</p>
+
+  <h3>Option A: Points-Based (Recommended)</h3>
+  <table>
+    <thead><tr><th>Tier</th><th>Points Required</th><th>Reward</th><th>Estimated Cost/Redemption</th><th>Visits to Redeem</th></tr></thead>
+    <tbody>
+      <tr class="input-row"><td>Bronze</td><td><input type="text" placeholder="100 pts"></td><td><input type="text" placeholder="$10 off next service"></td><td><input type="text" placeholder="$10"></td><td><input type="text" placeholder="3-4"></td></tr>
+      <tr class="input-row"><td>Silver</td><td><input type="text" placeholder="250 pts"></td><td><input type="text" placeholder="Free oil change"></td><td><input type="text" placeholder="$35"></td><td><input type="text" placeholder="6-8"></td></tr>
+      <tr class="input-row"><td>Gold</td><td><input type="text" placeholder="500 pts"></td><td><input type="text" placeholder="$50 off + free tire rotation"></td><td><input type="text" placeholder="$55"></td><td><input type="text" placeholder="12-15"></td></tr>
+      <tr class="input-row"><td>Platinum</td><td><input type="text" placeholder="1000 pts"></td><td><input type="text" placeholder="Free diagnostic + priority scheduling"></td><td><input type="text" placeholder="$120"></td><td><input type="text" placeholder="25+"></td></tr>
+    </tbody>
+  </table>
+  <p style="font-size:0.85rem;color:#666;">Points earned: 1 point per $1 spent. Bonus: 2x points on declined work accepted.</p>
+
+  <h3>Option B: Visit-Based (Simpler)</h3>
+  <table>
+    <thead><tr><th>Visit #</th><th>Reward</th><th>Cost</th></tr></thead>
+    <tbody>
+      <tr class="input-row"><td>5th visit</td><td><input type="text" placeholder="Free tire rotation"></td><td><input type="text" placeholder="$20"></td></tr>
+      <tr class="input-row"><td>10th visit</td><td><input type="text" placeholder="Free oil change"></td><td><input type="text" placeholder="$35"></td></tr>
+      <tr class="input-row"><td>15th visit</td><td><input type="text" placeholder="$50 off any service"></td><td><input type="text" placeholder="$50"></td></tr>
+      <tr class="input-row"><td>20th visit</td><td><input type="text" placeholder="Free brake inspection + $100 off"></td><td><input type="text" placeholder="$100"></td></tr>
+    </tbody>
+  </table>
+
+  <h2>Cost Modeling</h2>
+  <div class="calc-box">
+    <p><strong>Annual Reward Cost Estimate:</strong></p>
+    <p>Active Customers: [____] &times; Estimated Redemption Rate (15-25%): [____] &times; Avg Reward Cost: $[____] = <strong>$[______] / year</strong></p>
+    <p><strong>Revenue Impact:</strong></p>
+    <p>Retention Lift (10-15%): [____] additional visits &times; ARO $[____] = <strong>$[______] additional revenue</strong></p>
+    <p><strong>Net ROI:</strong> Additional Revenue - Reward Cost = <strong>$[______]</strong></p>
+  </div>
+
+  <h2>Enrollment Tracking</h2>
+  <table>
+    <thead><tr><th>Month</th><th>New Enrollments</th><th>Total Members</th><th>Redemptions</th><th>Reward Cost</th><th>Revenue from Members</th></tr></thead>
+    <tbody>
+      <tr class="input-row"><td>Jan</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+      <tr class="input-row"><td>Feb</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+      <tr class="input-row"><td>Mar</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+      <tr class="input-row"><td>Apr</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+      <tr class="input-row"><td>May</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+      <tr class="input-row"><td>Jun</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+      <tr class="input-row"><td>Jul</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+      <tr class="input-row"><td>Aug</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+      <tr class="input-row"><td>Sep</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+      <tr class="input-row"><td>Oct</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+      <tr class="input-row"><td>Nov</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+      <tr class="input-row"><td>Dec</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>
+    </tbody>
+  </table>
+
+  <h2>Enrollment Methods</h2>
+  <table>
+    <thead><tr><th>Method</th><th>Channel</th><th>Script / CTA</th><th>Target Enrollment Rate</th></tr></thead>
+    <tbody>
+      <tr class="input-row"><td>At checkout</td><td>In-person</td><td><input type="text" placeholder=""You're earning points starting today! Just give us your phone number.""></td><td><input type="text" placeholder="60-80%"></td></tr>
+      <tr class="input-row"><td>Post-service SMS</td><td>SMS</td><td><input type="text" placeholder=""Join our rewards program: [link]. Earn points on every visit!""></td><td><input type="text" placeholder="15-25%"></td></tr>
+      <tr class="input-row"><td>Website signup</td><td>Web</td><td><input type="text" placeholder="Banner: "Join our loyalty program - start earning today""></td><td><input type="text" placeholder="5-10%"></td></tr>
+      <tr class="input-row"><td>Email campaign</td><td>Email</td><td><input type="text" placeholder=""Exclusive: Join our rewards program and get 50 bonus points""></td><td><input type="text" placeholder="10-15%"></td></tr>
+    </tbody>
+  </table>
+
+  <div class="footer">
+    <p>Free template from <a href="https://wiki-help.github.io/auto-repair-shop-software/free-resources/">Booking Automotive Free Resources</a>. Released under MIT License.</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Work Order Template - Auto Repair Shop</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 850px; margin: 0 auto; padding: 2rem; color: #1a1a2e; }
+  h1 { font-size: 1.8rem; border-bottom: 3px solid #c8a951; padding-bottom: 0.5rem; }
+  .header-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1rem 0; }
+  .info-box { border: 1px solid #ddd; border-radius: 6px; padding: 0.75rem; }
+  .info-box h3 { margin: 0 0 0.5rem; font-size: 0.9rem; text-transform: uppercase; color: #666; }
+  .info-box p { margin: 0.15rem 0; font-size: 0.9rem; }
+  .info-box input { border: none; border-bottom: 1px dotted #ccc; width: 100%; font-size: 0.9rem; padding: 0.15rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  th { background: #1a1a2e; color: white; padding: 0.5rem; text-align: left; font-size: 0.85rem; }
+  td { padding: 0.5rem; border-bottom: 1px solid #ddd; font-size: 0.9rem; }
+  .qty { width: 50px; text-align: center; }
+  .amount { width: 80px; text-align: right; }
+  .totals { margin-left: auto; width: 300px; }
+  .totals table { width: 100%; }
+  .totals td { border: none; padding: 0.3rem 0.5rem; }
+  .totals .total-row { font-weight: 700; font-size: 1.1rem; border-top: 2px solid #1a1a2e; }
+  .auth { margin-top: 2rem; border: 1px solid #ddd; border-radius: 6px; padding: 1rem; }
+  .footer { margin-top: 2rem; font-size: 0.85rem; color: #666; border-top: 1px solid #ddd; padding-top: 1rem; }
+  @media print { body { padding: 0.5in; } .no-print { display: none; } }
+</style>
+</head>
+<body>
+  <h1>Repair Work Order</h1>
+
+  <div class="header-grid">
+    <div class="info-box">
+      <h3>Shop Information</h3>
+      <p>Shop Name: <input type="text"></p>
+      <p>Address: <input type="text"></p>
+      <p>Phone: <input type="text"></p>
+      <p>RO #: <input type="text" style="width:100px;"></p>
+      <p>Date: <input type="text" style="width:120px;"></p>
+    </div>
+    <div class="info-box">
+      <h3>Customer & Vehicle</h3>
+      <p>Customer: <input type="text"></p>
+      <p>Phone: <input type="text"></p>
+      <p>Vehicle: <input type="text" placeholder="Year/Make/Model"></p>
+      <p>VIN: <input type="text"></p>
+      <p>Mileage: <input type="text" style="width:100px;"></p>
+    </div>
+  </div>
+
+  <h3 style="margin-top:1.5rem;">Labor</h3>
+  <table>
+    <thead><tr><th>#</th><th>Description of Work</th><th class="qty">Hrs</th><th class="amount">Rate</th><th class="amount">Amount</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td></td><td class="qty"></td><td class="amount"></td><td class="amount"></td></tr>
+      <tr><td>2</td><td></td><td class="qty"></td><td class="amount"></td><td class="amount"></td></tr>
+      <tr><td>3</td><td></td><td class="qty"></td><td class="amount"></td><td class="amount"></td></tr>
+      <tr><td>4</td><td></td><td class="qty"></td><td class="amount"></td><td class="amount"></td></tr>
+      <tr><td>5</td><td></td><td class="qty"></td><td class="amount"></td><td class="amount"></td></tr>
+    </tbody>
+  </table>
+
+  <h3 style="margin-top:1rem;">Parts</h3>
+  <table>
+    <thead><tr><th>#</th><th>Part Description</th><th>Part #</th><th class="qty">Qty</th><th class="amount">Unit Price</th><th class="amount">Amount</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td></td><td></td><td class="qty"></td><td class="amount"></td><td class="amount"></td></tr>
+      <tr><td>2</td><td></td><td></td><td class="qty"></td><td class="amount"></td><td class="amount"></td></tr>
+      <tr><td>3</td><td></td><td></td><td class="qty"></td><td class="amount"></td><td class="amount"></td></tr>
+      <tr><td>4</td><td></td><td></td><td class="qty"></td><td class="amount"></td><td class="amount"></td></tr>
+      <tr><td>5</td><td></td><td></td><td class="qty"></td><td class="amount"></td><td class="amount"></td></tr>
+    </tbody>
+  </table>
+
+  <div class="totals">
+    <table>
+      <tr><td>Labor Subtotal:</td><td style="text-align:right;">$________</td></tr>
+      <tr><td>Parts Subtotal:</td><td style="text-align:right;">$________</td></tr>
+      <tr><td>Shop Supplies:</td><td style="text-align:right;">$________</td></tr>
+      <tr><td>Tax:</td><td style="text-align:right;">$________</td></tr>
+      <tr class="total-row"><td>TOTAL:</td><td style="text-align:right;">$________</td></tr>
+    </table>
+  </div>
+
+  <div class="auth">
+    <h3 style="margin:0 0 0.75rem;font-size:1rem;">Customer Authorization</h3>
+    <p style="font-size:0.85rem;color:#666;margin-bottom:0.75rem;">I authorize the above repairs and agree to pay the total amount upon completion. I understand that additional work may be required and will be contacted for authorization before proceeding.</p>
+    <p style="font-size:0.9rem;">Customer Signature: _______________________________ &nbsp;&nbsp; Date: ____________</p>
+    <p style="font-size:0.9rem;">Authorization Limit: $________ &nbsp;&nbsp; Contact Method: ____________</p>
+  </div>
+
+  <div class="footer">
+    <p>Free template from <a href="https://wiki-help.github.io/auto-repair-shop-software/free-resources/">Booking Automotive Free Resources</a>. Released under MIT License.</p>
+  </div>
+</body>
+</html>

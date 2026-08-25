@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Customer Intake Form - Auto Repair Shop</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 800px; margin: 0 auto; padding: 2rem; color: #1a1a2e; }
+  h1 { font-size: 1.8rem; border-bottom: 3px solid #c8a951; padding-bottom: 0.5rem; }
+  h2 { font-size: 1.1rem; background: #1a1a2e; color: white; padding: 0.5rem 0.75rem; margin-top: 1.5rem; }
+  .field { display: inline-block; margin-right: 1.5rem; margin-bottom: 0.75rem; }
+  .field label { display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.2rem; }
+  .field input, .field select { border: 1px solid #ccc; border-radius: 4px; padding: 0.35rem 0.5rem; font-size: 0.95rem; width: 220px; }
+  .full-width { display: block; width: 100%; }
+  .full-width input, .full-width textarea { width: 100%; box-sizing: border-box; }
+  textarea { border: 1px solid #ccc; border-radius: 4px; padding: 0.5rem; font-family: inherit; }
+  .concerns { width: 100%; height: 100px; }
+  .checkbox-group label { display: inline-block; margin-right: 1.5rem; font-size: 0.95rem; }
+  .footer { margin-top: 2rem; font-size: 0.85rem; color: #666; border-top: 1px solid #ddd; padding-top: 1rem; }
+  @media print { body { padding: 0.5in; } .no-print { display: none; } }
+</style>
+</head>
+<body>
+  <h1>Customer Intake Form</h1>
+  <p style="color:#666;">Standardized intake capturing vehicle info, concerns, and history</p>
+
+  <h2>Customer Information</h2>
+  <div class="field"><label>Full Name</label><input type="text"></div>
+  <div class="field"><label>Phone Number</label><input type="tel"></div>
+  <div class="field"><label>Email Address</label><input type="email"></div>
+  <div class="field"><label>Address</label><input type="text"></div>
+  <div class="field"><label>Preferred Contact</label><select><option>SMS</option><option>Phone</option><option>Email</option></select></div>
+  <div class="field"><label>New or Returning?</label><select><option>New Customer</option><option>Returning Customer</option></select></div>
+
+  <h2>Vehicle Information</h2>
+  <div class="field"><label>Year</label><input type="text"></div>
+  <div class="field"><label>Make</label><input type="text"></div>
+  <div class="field"><label>Model</label><input type="text"></div>
+  <div class="field"><label>VIN</label><input type="text"></div>
+  <div class="field"><label>License Plate</label><input type="text"></div>
+  <div class="field"><label>Mileage</label><input type="text"></div>
+  <div class="field"><label>Color</label><input type="text"></div>
+  <div class="field"><label>Engine Size</label><input type="text"></div>
+
+  <h2>Service Concerns</h2>
+  <div class="full-width" style="margin-bottom: 1rem;">
+    <label style="font-size:0.85rem;font-weight:600;display:block;margin-bottom:0.3rem;">Customer Description of Problem</label>
+    <textarea class="concerns" placeholder="Describe the issue, when it occurs, any sounds or warning lights..."></textarea>
+  </div>
+  <div class="checkbox-group" style="margin-bottom:1rem;">
+    <label>&#9744; Check Engine Light</label>
+    <label>&#9744; ABS Light</label>
+    <label>&#9744; Airbag Light</label>
+    <label>&#9744; Oil Light</label>
+    <label>&#9744; Battery Light</label>
+    <label>&#9744; Temperature Warning</label>
+  </div>
+  <div class="checkbox-group" style="margin-bottom:1rem;">
+    <label>&#9744; Noise</label>
+    <label>&#9744; Vibration</label>
+    <label>&#9744; Fluid Leak</label>
+    <label>&#9744; Performance Issue</label>
+    <label>&#9744; Electrical Problem</label>
+  </div>
+
+  <h2>Service History & Authorization</h2>
+  <div class="field"><label>Last Service Date</label><input type="text"></div>
+  <div class="field"><label>Last Service Performed</label><input type="text"></div>
+  <div class="field"><label>Authorization Limit ($)</label><input type="text" placeholder="Max $ without call"></div>
+  <div class="full-width" style="margin-top:1rem;">
+    <label style="font-size:0.85rem;font-weight:600;display:block;margin-bottom:0.3rem;">Additional Notes / Special Instructions</label>
+    <textarea style="width:100%;height:60px;" placeholder="Any special requests, parts preferences, or accessibility needs..."></textarea>
+  </div>
+
+  <div style="margin-top:1.5rem;">
+    <p style="font-size:0.9rem;">Customer Signature: _______________________________ &nbsp;&nbsp; Date: ____________</p>
+    <p style="font-size:0.9rem;">Service Advisor: _______________________________ &nbsp;&nbsp; Time In: ____________</p>
+  </div>
+
+  <div class="footer">
+    <p>Free template from <a href="https://wiki-help.github.io/auto-repair-shop-software/free-resources/">Booking Automotive Free Resources</a>. Released under MIT License.</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Inspection Template - Auto Repair Shop</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 850px; margin: 0 auto; padding: 2rem; color: #1a1a2e; }
+  h1 { font-size: 1.8rem; border-bottom: 3px solid #c8a951; padding-bottom: 0.5rem; }
+  h2 { font-size: 1.05rem; background: #1a1a2e; color: white; padding: 0.5rem 0.75rem; margin-top: 1.5rem; }
+  .header-info { display: flex; gap: 1rem; flex-wrap: wrap; margin: 1rem 0; }
+  .header-info input { border: 1px solid #ccc; border-radius: 4px; padding: 0.3rem 0.5rem; font-size: 0.9rem; }
+  table { width: 100%; border-collapse: collapse; margin: 0.5rem 0; }
+  th { background: #f0f0f0; padding: 0.5rem; text-align: left; font-size: 0.85rem; }
+  td { padding: 0.5rem; border-bottom: 1px solid #ddd; font-size: 0.9rem; }
+  .check { width: 40px; text-align: center; }
+  .photo { width: 80px; }
+  .photo-box { width: 60px; height: 40px; border: 1px dashed #aaa; display: inline-block; text-align: center; line-height: 40px; font-size: 0.7rem; color: #999; }
+  .status-pass { color: #16a34a; font-weight: 600; }
+  .status-fail { color: #dc2626; font-weight: 600; }
+  .status-advisory { color: #d97706; font-weight: 600; }
+  .footer { margin-top: 2rem; font-size: 0.85rem; color: #666; border-top: 1px solid #ddd; padding-top: 1rem; }
+  @media print { body { padding: 0.5in; } .no-print { display: none; } }
+</style>
+</head>
+<body>
+  <h1>Multi-Point Digital Inspection Template</h1>
+  <p style="color:#666;">Comprehensive inspection with photo placeholders and recommendation categories</p>
+
+  <div class="header-info">
+    <div>Customer: <input type="text" style="width:150px;"></div>
+    <div>Vehicle: <input type="text" style="width:150px;" placeholder="Year/Make/Model"></div>
+    <div>VIN: <input type="text" style="width:160px;"></div>
+    <div>Mileage: <input type="text" style="width:80px;"></div>
+    <div>Date: <input type="text" style="width:100px;"></div>
+    <div>Technician: <input type="text" style="width:120px;"></div>
+  </div>
+
+  <h2>Under Hood</h2>
+  <table>
+    <thead><tr><th class="check">Status</th><th>Item</th><th>Condition</th><th>Recommendation</th><th class="photo">Photo</th></tr></thead>
+    <tbody>
+      <tr><td class="check">&#9744;</td><td>Engine Oil Level & Condition</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+      <tr><td class="check">&#9744;</td><td>Coolant Level & Condition</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+      <tr><td class="check">&#9744;</td><td>Brake Fluid Level & Condition</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+      <tr><td class="check">&#9744;</td><td>Power Steering Fluid</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+      <tr><td class="check">&#9744;</td><td>Transmission Fluid</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+      <tr><td class="check">&#9744;</td><td>Battery & Terminals</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+      <tr><td class="check">&#9744;</td><td>Drive Belts & Hoses</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+      <tr><td class="check">&#9744;</td><td>Air Filter</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+      <tr><td class="check">&#9744;</td><td>Cabin Air Filter</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+    </tbody>
+  </table>
+
+  <h2>Brakes</h2>
+  <table>
+    <thead><tr><th class="check">Status</th><th>Item</th><th>Condition</th><th>Recommendation</th><th class="photo">Photo</th></tr></thead>
+    <tbody>
+      <tr><td class="check">&#9744;</td><td>Front Brake Pads</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+      <tr><td class="check">&#9744;</td><td>Front Rotors</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+      <tr><td class="check">&#9744;</td><td>Rear Brake Pads</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+      <tr><td class="check">&#9744;</td><td>Rear Rotors/Drums</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+      <tr><td class="check">&#9744;</td><td>Brake Lines & Hoses</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+      <tr><td class="check">&#9744;</td><td>Parking Brake</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+    </tbody>
+  </table>
+
+  <h2>Suspension & Steering</h2>
+  <table>
+    <thead><tr><th class="check">Status</th><th>Item</th><th>Condition</th><th>Recommendation</th><th class="photo">Photo</th></tr></thead>
+    <tbody>
+      <tr><td class="check">&#9744;</td><td>Shocks & Struts</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+      <tr><td class="check">&#9744;</td><td>Tie Rods & Ends</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+      <tr><td class="check">&#9744;</td><td>Ball Joints</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+      <tr><td class="check">&#9744;</td><td>Control Arm Bushings</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+      <tr><td class="check">&#9744;</td><td>Wheel Bearings</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+    </tbody>
+  </table>
+
+  <h2>Tires</h2>
+  <table>
+    <thead><tr><th class="check">Status</th><th>Item</th><th>Tread Depth</th><th>PSI</th><th class="photo">Photo</th></tr></thead>
+    <tbody>
+      <tr><td class="check">&#9744;</td><td>Front Left Tire</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+      <tr><td class="check">&#9744;</td><td>Front Right Tire</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+      <tr><td class="check">&#9744;</td><td>Rear Left Tire</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+      <tr><td class="check">&#9744;</td><td>Rear Right Tire</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+      <tr><td class="check">&#9744;</td><td>Spare Tire</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+    </tbody>
+  </table>
+
+  <h2>Exterior & Safety</h2>
+  <table>
+    <thead><tr><th class="check">Status</th><th>Item</th><th>Condition</th><th>Recommendation</th><th class="photo">Photo</th></tr></thead>
+    <tbody>
+      <tr><td class="check">&#9744;</td><td>Headlights & Taillights</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+      <tr><td class="check">&#9744;</td><td>Turn Signals & Hazards</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+      <tr><td class="check">&#9744;</td><td>Wiper Blades</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+      <tr><td class="check">&#9744;</td><td>Exhaust System</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+    </tbody>
+  </table>
+
+  <h2>Diagnostic & Summary</h2>
+  <table>
+    <thead><tr><th class="check">Status</th><th>Item</th><th>Result</th><th>Recommendation</th><th class="photo">Photo</th></tr></thead>
+    <tbody>
+      <tr><td class="check">&#9744;</td><td>OBD-II Scan / Diagnostic Codes</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+      <tr><td class="check">&#9744;</td><td>Test Drive Results</td><td></td><td></td><td class="photo"><span class="photo-box">Add</span></td></tr>
+    </tbody>
+  </table>
+
+  <div style="margin-top:1.5rem;">
+    <p style="font-weight:600;">Overall Summary & Recommendations:</p>
+    <textarea style="width:100%;height:80px;border:1px solid #ccc;border-radius:4px;padding:0.5rem;font-family:inherit;" placeholder="Summarize findings, prioritize recommendations, and note any safety concerns..."></textarea>
+  </div>
+
+  <div style="margin-top:1rem;">
+    <p style="font-size:0.9rem;">Technician Signature: _______________________________ &nbsp;&nbsp; Date: ____________</p>
+  </div>
+
+  <div class="footer">
+    <p>Free template from <a href="https://wiki-help.github.io/auto-repair-shop-software/free-resources/">Booking Automotive Free Resources</a>. Released under MIT License.</p>
+  </div>
+</body>
+</html>

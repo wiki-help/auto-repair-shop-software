@@ -50,28 +50,28 @@ Every resource on this page is free to use, share, and adapt. We created them be
 
 | Template | Description | Formats |
 |----------|-------------|---------|
-| Daily Opening Checklist | 15-point checklist for bay inspection, tool inventory, and appointment review | [PDF](https://bookingautomotive.com), [Google Docs](https://bookingautomotive.com) |
-| Customer Intake Form | Standardized intake capturing vehicle info, concerns, and history | [PDF](https://bookingautomotive.com), [Google Docs](https://bookingautomotive.com) |
-| Digital Inspection Template | Multi-point inspection with photo placeholders and recommendation categories | [PDF](https://bookingautomotive.com), [Google Docs](https://bookingautomotive.com) |
-| Work Order Template | Professional repair order with labor, parts, and authorization sections | [PDF](https://bookingautomotive.com), [Google Docs](https://bookingautomotive.com) |
+| Daily Opening Checklist | 15-point checklist for bay inspection, tool inventory, and appointment review | [HTML (print to PDF)]({{ site.baseurl }}/downloads/daily-opening-checklist.html) |
+| Customer Intake Form | Standardized intake capturing vehicle info, concerns, and history | [HTML (print to PDF)]({{ site.baseurl }}/downloads/customer-intake-form.html) |
+| Digital Inspection Template | Multi-point inspection with photo placeholders and recommendation categories | [HTML (print to PDF)]({{ site.baseurl }}/downloads/digital-inspection-template.html) |
+| Work Order Template | Professional repair order with labor, parts, and authorization sections | [HTML (print to PDF)]({{ site.baseurl }}/downloads/work-order-template.html) |
 
 ### Financial Management
 
 | Template | Description | Formats |
 |----------|-------------|---------|
-| Weekly Revenue Tracker | Daily revenue, appointment count, ARO, and no-show rate tracking | [Excel](https://bookingautomotive.com), [Google Sheets](https://bookingautomotive.com) |
-| Labor Rate Review Worksheet | Annual rate evaluation with benchmark comparison and cost analysis | [Excel](https://bookingautomotive.com), [Google Sheets](https://bookingautomotive.com) |
-| Monthly P&L Template | Auto-shop-specific profit and loss statement | [Excel](https://bookingautomotive.com), [Google Sheets](https://bookingautomotive.com) |
-| Technician Commission Calculator | Flat-rate, hourly, and hybrid models with tax and bonus tiers | [Excel](https://bookingautomotive.com), [Google Sheets](https://bookingautomotive.com) |
+| Weekly Revenue Tracker | Daily revenue, appointment count, ARO, and no-show rate tracking | [CSV (Excel/Sheets)]({{ site.baseurl }}/downloads/weekly-revenue-tracker.csv) |
+| Labor Rate Review Worksheet | Annual rate evaluation with benchmark comparison and cost analysis | [CSV (Excel/Sheets)]({{ site.baseurl }}/downloads/labor-rate-review-worksheet.csv) |
+| Monthly P&L Template | Auto-shop-specific profit and loss statement | [CSV (Excel/Sheets)]({{ site.baseurl }}/downloads/monthly-pl-template.csv) |
+| Technician Commission Calculator | Flat-rate, hourly, and hybrid models with tax and bonus tiers | [CSV (Excel/Sheets)]({{ site.baseurl }}/downloads/technician-commission-calculator.csv) |
 
 ### Marketing & Customer Retention
 
 | Template | Description | Formats |
 |----------|-------------|---------|
-| Customer Follow-Up Schedule | Post-visit timeline: thank-you, survey, maintenance reminder, declined work | [PDF](https://bookingautomotive.com), [Google Docs](https://bookingautomotive.com) |
-| Google Review Request Script | Email and SMS templates for review requests with negative response handling | [PDF](https://bookingautomotive.com), [Google Docs](https://bookingautomotive.com) |
-| Loyalty Program Design Guide | Tiered rewards structure with cost modeling and enrollment tracking | [PDF](https://bookingautomotive.com), [Google Docs](https://bookingautomotive.com) |
-| Seasonal Marketing Calendar | Year-round promotion schedule for holidays, weather events, and slow seasons | [PDF](https://bookingautomotive.com), [Google Docs](https://bookingautomotive.com) |
+| Customer Follow-Up Schedule | Post-visit timeline: thank-you, survey, maintenance reminder, declined work | [HTML (print to PDF)]({{ site.baseurl }}/downloads/customer-follow-up-schedule.html) |
+| Google Review Request Script | Email and SMS templates for review requests with negative response handling | [HTML (print to PDF)]({{ site.baseurl }}/downloads/google-review-request-script.html) |
+| Loyalty Program Design Guide | Tiered rewards structure with cost modeling and enrollment tracking | [HTML (print to PDF)]({{ site.baseurl }}/downloads/loyalty-program-design-guide.html) |
+| Seasonal Marketing Calendar | Year-round promotion schedule for holidays, weather events, and slow seasons | [HTML (print to PDF)]({{ site.baseurl }}/downloads/seasonal-marketing-calendar.html) |
 
 ---
 
@@ -110,10 +110,10 @@ We welcome contributions from shop owners and developers:
 
 All benchmark data is available as anonymized CSV exports for academic research, journalism, and industry analysis.
 
-- **[Labor rate benchmarks (CSV)](https://bookingautomotive.com)** — National and regional breakdowns
-- **[ARO dataset (CSV)](https://bookingautomotive.com)** — City-level ARO data with digital inspection flag
-- **[No-show rate dataset (CSV)](https://bookingautomotive.com)** — Monthly no-show rates by city, 2024-2026
-- **[Customer retention dataset (CSV)](https://bookingautomotive.com)** — Cohort retention curves by shop type
+- **[Labor rate benchmarks (CSV)]({{ site.baseurl }}/benchmarks/)** — National and regional breakdowns
+- **[ARO dataset (CSV)]({{ site.baseurl }}/benchmarks/)** — City-level ARO data with digital inspection flag
+- **[No-show rate dataset (CSV)]({{ site.baseurl }}/benchmarks/)** — Monthly no-show rates by city, 2024-2026
+- **[Customer retention dataset (CSV)]({{ site.baseurl }}/benchmarks/)** — Cohort retention curves by shop type
 
 [Request data access](https://bookingautomotive.com) — free academic and journalist access with proper attribution.
 

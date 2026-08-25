@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Customer Follow-Up Schedule - Auto Repair Shop</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 850px; margin: 0 auto; padding: 2rem; color: #1a1a2e; }
+  h1 { font-size: 1.8rem; border-bottom: 3px solid #c8a951; padding-bottom: 0.5rem; }
+  h2 { font-size: 1.05rem; background: #1a1a2e; color: white; padding: 0.5rem 0.75rem; margin-top: 1.5rem; }
+  .header-info { display: flex; gap: 1rem; flex-wrap: wrap; margin: 1rem 0; }
+  .header-info input { border: 1px solid #ccc; border-radius: 4px; padding: 0.3rem 0.5rem; font-size: 0.9rem; }
+  table { width: 100%; border-collapse: collapse; margin: 0.5rem 0; }
+  th { background: #f0f0f0; padding: 0.5rem; text-align: left; font-size: 0.85rem; }
+  td { padding: 0.5rem; border-bottom: 1px solid #ddd; font-size: 0.9rem; }
+  .done { width: 40px; text-align: center; }
+  .template-box { background: #f8f8f8; border: 1px solid #ddd; border-radius: 6px; padding: 1rem; margin: 0.5rem 0; }
+  .template-box h4 { margin: 0 0 0.5rem; font-size: 0.95rem; }
+  .template-box p { margin: 0; font-size: 0.85rem; color: #555; line-height: 1.6; }
+  .footer { margin-top: 2rem; font-size: 0.85rem; color: #666; border-top: 1px solid #ddd; padding-top: 1rem; }
+  @media print { body { padding: 0.5in; } .no-print { display: none; } }
+</style>
+</head>
+<body>
+  <h1>Customer Follow-Up Schedule</h1>
+  <p style="color:#666;">Post-visit timeline: thank-you, survey, maintenance reminder, declined work</p>
+
+  <div class="header-info">
+    <div>Customer: <input type="text" style="width:150px;"></div>
+    <div>Vehicle: <input type="text" style="width:150px;" placeholder="Year/Make/Model"></div>
+    <div>Service Date: <input type="text" style="width:100px;"></div>
+    <div>RO #: <input type="text" style="width:80px;"></div>
+  </div>
+
+  <h2>Follow-Up Timeline</h2>
+  <table>
+    <thead><tr><th class="done">&#10003;</th><th>Timing</th><th>Action</th><th>Channel</th><th>Template</th><th>Scheduled Date</th></tr></thead>
+    <tbody>
+      <tr><td class="done">&#9744;</td><td>Within 2 hours</td><td>Thank-you message with photo of completed work</td><td>SMS</td><td>See below</td><td></td></tr>
+      <tr><td class="done">&#9744;</td><td>24 hours</td><td>Customer satisfaction survey (NPS)</td><td>SMS + Email</td><td>See below</td><td></td></tr>
+      <tr><td class="done">&#9744;</td><td>3 days</td><td>Google review request (if survey &ge; 4 stars)</td><td>Email</td><td>See below</td><td></td></tr>
+      <tr><td class="done">&#9744;</td><td>7 days</td><td>Declined work follow-up call</td><td>Phone</td><td>See below</td><td></td></tr>
+      <tr><td class="done">&#9744;</td><td>30 days</td><td>Declined work second touch (discount offer)</td><td>SMS</td><td>See below</td><td></td></tr>
+      <tr><td class="done">&#9744;</td><td>60 days</td><td>Maintenance reminder based on mileage</td><td>SMS + Email</td><td>See below</td><td></td></tr>
+      <tr><td class="done">&#9744;</td><td>90 days</td><td>Seasonal service promotion</td><td>Email</td><td>See below</td><td></td></tr>
+      <tr><td class="done">&#9744;</td><td>6 months</td><td>Recall / TSB check + oil change reminder</td><td>SMS</td><td>See below</td><td></td></tr>
+    </tbody>
+  </table>
+
+  <h2>Message Templates</h2>
+
+  <div class="template-box">
+    <h4>1. Thank-You (2 hours post-service)</h4>
+    <p>"Hi [Name], thanks for choosing [Shop Name]! Your [Vehicle] is ready and we've completed [service summary]. We've attached photos of the work. Reply with any questions. Drive safe!"</p>
+  </div>
+
+  <div class="template-box">
+    <h4>2. Satisfaction Survey (24 hours)</h4>
+    <p>"Hi [Name], how was your experience with [Shop Name]? Reply 1-5: 1=Not satisfied, 5=Very satisfied. Your feedback helps us improve!"</p>
+  </div>
+
+  <div class="template-box">
+    <h4>3. Google Review Request (3 days, if 4+ stars)</h4>
+    <p>"Hi [Name], glad to hear you had a great experience! Would you mind sharing a quick review on Google? It helps other shop owners find quality service. [Google Review Link] Thanks!"</p>
+  </div>
+
+  <div class="template-box">
+    <h4>4. Declined Work Follow-Up (7 days)</h4>
+    <p>"Hi [Name], during your last visit we noticed [item] may need attention soon. We recommended [service] which was deferred. Would you like to schedule this at your convenience? Reply or call [phone]."</p>
+  </div>
+
+  <div class="template-box">
+    <h4>5. Declined Work Second Touch (30 days)</h4>
+    <p>"Hi [Name], just following up on the [deferred service] we recommended. We're offering 10% off this service through [date]. Would you like to schedule? Reply YES and we'll find a time that works."</p>
+  </div>
+
+  <div class="template-box">
+    <h4>6. Maintenance Reminder (60 days)</h4>
+    <p>"Hi [Name], based on your mileage it may be time for [maintenance item]. Regular maintenance keeps your [Vehicle] running smoothly and prevents costly repairs. Schedule online: [booking link]"</p>
+  </div>
+
+  <div class="template-box">
+    <h4>7. Seasonal Promotion (90 days)</h4>
+    <p>"Hi [Name], [season] is here! Make sure your [Vehicle] is ready with our [seasonal service] special - [discount/offer]. Book now: [booking link]"</p>
+  </div>
+
+  <div class="template-box">
+    <h4>8. Recall/TSB Check (6 months)</h4>
+    <p>"Hi [Name], we checked for any recalls or technical service bulletins on your [Vehicle]. [Result: No recalls found / Recall found: description]. Schedule your complimentary check: [booking link]"</p>
+  </div>
+
+  <div class="footer">
+    <p>Free template from <a href="https://wiki-help.github.io/auto-repair-shop-software/free-resources/">Booking Automotive Free Resources</a>. Released under MIT License.</p>
+  </div>
+</body>
+</html>
